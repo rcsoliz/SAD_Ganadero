@@ -3,7 +3,7 @@ import pandas as pd
 
 # ⚠️ REEMPLAZA ESTO CON TU CADENA URI REAL DE SUPABASE
 # Recuerda colocar tu contraseña real en lugar de [your-password]
-DB_URI = "postgresql://postgres:1Tarechi$$2026@db.ahplhuivlpgjahkzyayx.supabase.co:5432/postgres"
+DB_URI = "postgresql://postgres.ahplhuivlpgjahkzyayx:1Tarechi$$2026@aws-1-sa-east-1.pooler.supabase.com:5432/postgres"
 
 def obtener_conexion():
     """Establece una conexión segura con la base de datos PostgreSQL en Supabase."""
