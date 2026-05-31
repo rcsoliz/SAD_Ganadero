@@ -2,7 +2,7 @@ import psycopg2
 import pandas as pd
 
 # Tu cadena URI del Pooler de Supabase (Mantenla tal como la tenías)
-DB_URI = "postgresql://postgres.ahplhuivlpgjahkzyayx:1Tarechi$$2026@aws-1-sa-east-1.pooler.supabase.com:5432/postgres"
+DB_URI = "postgresql://postgres.ahplhuivlpgjahkzyayx:1Tarechi$$2026@aws-1-sa-east-1.pooler.supabase.com:6543/postgres"
 
 def obtener_conexion():
     return psycopg2.connect(DB_URI)
